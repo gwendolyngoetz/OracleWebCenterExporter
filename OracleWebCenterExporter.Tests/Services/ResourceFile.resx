@@ -1,0 +1,786 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SiteReportMetadataJson" xml:space="preserve">
+    <value>{
+  "LocalData": {
+    "IdcService": "SS_GET_SITE_REPORT",
+    "IsJson": "1",
+    "IsQueryObjectPersistent": "",
+    "UseForwardOnlyCursor": "",
+    "changedMonikers": "",
+    "changedSubjects": "",
+    "copyAborted": "0",
+    "dDocName": "SS_PROJECT_1000026",
+    "dUser": "username",
+    "dataSource": "SSLatestReleasedWebsiteDocsDataSource",
+    "idcToken": "1497473254989:4A7AA25F06171D5FB47760A18ED2E021",
+    "localizedForResponse": "1",
+    "nextRow": "5062",
+    "orderClause": "",
+    "refreshMonikers": "",
+    "refreshSubMonikers": "",
+    "refreshSubjects": "",
+    "resultName": "WebsiteDocs",
+    "siteId": "1000026"
+  },
+  "ResultSets": {
+    "SiteHierarchy": {
+        "rows":[
+            [1,2,'3']
+        ]
+    },
+    "UrlDataFiles": {
+        "rows":[
+            [1,'2','3']
+        ]
+    },
+    "DOC_INFO": {
+      "currentRow": 0,
+      "fields": [
+        {
+          "name": "dID"
+        },
+        {
+          "name": "dDocName"
+        },
+        {
+          "name": "dDocType"
+        },
+        {
+          "name": "dDocTitle"
+        },
+        {
+          "name": "dDocAuthor"
+        },
+        {
+          "name": "dRevClassID"
+        },
+        {
+          "name": "dRevisionID"
+        },
+        {
+          "name": "dRevLabel"
+        },
+        {
+          "name": "dIsCheckedOut"
+        },
+        {
+          "name": "dCheckoutUser"
+        },
+        {
+          "name": "dSecurityGroup"
+        },
+        {
+          "name": "dCreateDate"
+        },
+        {
+          "name": "dInDate"
+        },
+        {
+          "name": "dOutDate"
+        },
+        {
+          "name": "dStatus"
+        },
+        {
+          "name": "dReleaseState"
+        },
+        {
+          "name": "dFlag1"
+        },
+        {
+          "name": "dWebExtension"
+        },
+        {
+          "name": "dProcessingState"
+        },
+        {
+          "name": "dMessage"
+        },
+        {
+          "name": "dDocAccount"
+        },
+        {
+          "name": "dReleaseDate"
+        },
+        {
+          "name": "dRendition1"
+        },
+        {
+          "name": "dRendition2"
+        },
+        {
+          "name": "dIndexerState"
+        },
+        {
+          "name": "dPublishType"
+        },
+        {
+          "name": "dPublishState"
+        },
+        {
+          "name": "dWorkflowState"
+        },
+        {
+          "name": "dRevRank"
+        },
+        {
+          "name": "dDocID"
+        },
+        {
+          "name": "dID"
+        },
+        {
+          "name": "dIsPrimary"
+        },
+        {
+          "name": "dIsWebFormat"
+        },
+        {
+          "name": "dLocation"
+        },
+        {
+          "name": "dOriginalName"
+        },
+        {
+          "name": "dFormat"
+        },
+        {
+          "name": "dExtension"
+        },
+        {
+          "name": "dFileSize"
+        },
+        {
+          "name": "dLanguage"
+        },
+        {
+          "name": "dCharacterSet"
+        },
+        {
+          "name": "dID"
+        },
+        {
+          "name": "xComments"
+        },
+        {
+          "name": "xExternalDataSet"
+        },
+        {
+          "name": "xIdcProfile"
+        },
+        {
+          "name": "xPartitionId"
+        },
+        {
+          "name": "xWebFlag"
+        },
+        {
+          "name": "xStorageRule"
+        },
+        {
+          "name": "xWebsiteObjectType"
+        },
+        {
+          "name": "xWebsites"
+        },
+        {
+          "name": "xDontShowInListsForWebsites"
+        },
+        {
+          "name": "xWebsiteSection"
+        },
+        {
+          "name": "xRegionDefinition"
+        },
+        {
+          "name": "xCollectionID"
+        },
+        {
+          "name": "xCollectionInhibitUpdateMeta"
+        },
+        {
+          "name": "xHidden"
+        },
+        {
+          "name": "xInhibitUpdate"
+        },
+        {
+          "name": "xReadOnly"
+        },
+        {
+          "name": "xTrashDeleteDate"
+        },
+        {
+          "name": "xTrashDeleteLoc"
+        },
+        {
+          "name": "xTrashDeleteName"
+        },
+        {
+          "name": "xTrashDeleter"
+        },
+        {
+          "name": "xTemplateType"
+        },
+        {
+          "name": "xCreateDate"
+        },
+        {
+          "name": "xLCSID"
+        },
+        {
+          "name": "xWebsiteID"
+        },
+        {
+          "name": "xDescription"
+        },
+        {
+          "name": "xSME"
+        },
+        {
+          "name": "xReviewDate"
+        },
+        {
+          "name": "xForceFolderSecurity"
+        },
+        {
+          "name": "xDocumentTitle"
+        },
+        {
+          "name": "xSubType"
+        },
+        {
+          "name": "xDocumentSubject"
+        },
+        {
+          "name": "xDocumentDate"
+        },
+        {
+          "name": "xScanDate"
+        },
+        {
+          "name": "xSerialNumber"
+        },
+        {
+          "name": "xAdditionalReference"
+        },
+        {
+          "name": "xDocumentSource"
+        },
+        {
+          "name": "xObjectID"
+        },
+        {
+          "name": "xCaseNumber"
+        },
+        {
+          "name": "xReferenceNumber"
+        },
+        {
+          "name": "xBuildingNumber"
+        },
+        {
+          "name": "xCityNumber"
+        },
+        {
+          "name": "xCpdIsLocked"
+        },
+        {
+          "name": "xCpdIsTemplateEnabled"
+        },
+        {
+          "name": "xNatlBoardNum"
+        },
+        {
+          "name": "xSiteNumberOld"
+        },
+        {
+          "name": "xSiteName"
+        },
+        {
+          "name": "xCityObjectNumber"
+        },
+        {
+          "name": "xOwnerObjectNumberValidate"
+        },
+        {
+          "name": "xLocationValidate"
+        },
+        {
+          "name": "xSiteID"
+        },
+        {
+          "name": "xAPNumber"
+        },
+        {
+          "name": "xStreetNumber"
+        },
+        {
+          "name": "xStreetMod"
+        },
+        {
+          "name": "xStreetPrefix"
+        },
+        {
+          "name": "xStreetName"
+        },
+        {
+          "name": "xStreetType"
+        },
+        {
+          "name": "xStreetSuffix"
+        },
+        {
+          "name": "xReferenceNumberFiledAs"
+        },
+        {
+          "name": "xScanUser"
+        },
+        {
+          "name": "xLibraryGUID"
+        },
+        {
+          "name": "xDocTitle"
+        },
+        {
+          "name": "xDocSubject"
+        },
+        {
+          "name": "xDocType"
+        },
+        {
+          "name": "xReferenceKey1"
+        },
+        {
+          "name": "xReferenceEntity1"
+        },
+        {
+          "name": "xReferenceKey2"
+        },
+        {
+          "name": "xReferenceKey3"
+        },
+        {
+          "name": "xReferenceEntity2"
+        },
+        {
+          "name": "xReferenceEntity3"
+        },
+        {
+          "name": "xMicrofiche"
+        },
+        {
+          "name": "dRevClassID"
+        },
+        {
+          "name": "dDocName"
+        },
+        {
+          "name": "dIndexedID"
+        },
+        {
+          "name": "dDocCreatedDate"
+        },
+        {
+          "name": "dDocCreator"
+        },
+        {
+          "name": "dDocLastModifiedDate"
+        },
+        {
+          "name": "dDocLastModifier"
+        },
+        {
+          "name": "dDocOwner"
+        },
+        {
+          "name": "dDocFunction"
+        },
+        {
+          "name": "dDocClass"
+        }
+      ],
+      "rows": [
+        [
+          "3178416",
+          "SS_PROJECT_1000026",
+          "Web_ProductionFiles",
+          "Project File",
+          "xxxxx",
+          "7896",
+          "384",
+          "1625",
+          "0",
+          "",
+          "XXX",
+          "5\/26\/2017 8:42 AM",
+          "5\/26\/2017 8:42 AM",
+          "",
+          "RELEASED",
+          "Y",
+          "",
+          "bak",
+          "Y",
+          "",
+          "TOOLBOX_STAYPUT",
+          "5\/26\/2017 8:42 AM",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0",
+          "6432158",
+          "3178416",
+          "1",
+          "0",
+          "",
+          "ss_project_1000026.xml",
+          "application\/xml",
+          "xml",
+          "320027",
+          "",
+          "",
+          "3178416",
+          "",
+          "",
+          "Web",
+          "",
+          "",
+          "Web",
+          "Project",
+          "1000026",
+          "",
+          "1000026:1000026",
+          "",
+          "5000013",
+          "false",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "",
+          "0",
+          "",
+          "",
+          "",
+          "6\/18\/2008 1:13 PM",
+          "",
+          "0",
+          "",
+          "",
+          "",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0",
+          "0",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "7896",
+          "vvv",
+          "3178416",
+          "5\/15\/2013 8:21 AM",
+          "weblogic",
+          "5\/26\/2017 8:42 AM",
+          "aaa",
+          "weblogic",
+          "",
+          ""
+        ]
+      ]
+    },
+    "DOC_LATEST_ID": {
+      "currentRow": 0,
+      "fields": [
+        {
+          "name": "dID"
+        }
+      ],
+      "rows": [
+        [
+          "3178416"
+        ]
+      ]
+    },
+    "DataFileAssets": {
+      "currentRow": 0,
+      "fields": [
+        {
+          "name": "dDocName"
+        },
+        {
+          "name": "type"
+        },
+        {
+          "name": "value"
+        }
+      ],
+      "rows": [
+        
+      ]
+    },
+    "DeclaredAssets": {
+      "currentRow": 0,
+      "fields": [
+        {
+          "name": "ssSourceNodeId"
+        },
+        {
+          "name": "dDocName"
+        },
+        {
+          "name": "ssTargetNodeId"
+        }
+      ],
+      "rows": [
+        
+      ]
+    },
+    "LayoutAssets": {
+      "currentRow": 0,
+      "fields": [
+        {
+          "name": "layoutDocName"
+        },
+        {
+          "name": "type"
+        },
+        {
+          "name": "value"
+        }
+      ],
+      "rows": [
+        
+      ]
+    },
+    "LayoutFragments": {
+      "currentRow": 0,
+      "fields": [
+        {
+          "name": "layoutDocName"
+        },
+        {
+          "name": "fragmentLibraryDocName"
+        },
+        {
+          "name": "fragmentId"
+        }
+      ],
+      "rows": [
+        
+      ]
+    },
+    "NodeInfo": {
+      "currentRow": 468,
+      "fields": [
+        {
+          "name": "nodeId"
+        },
+        {
+          "name": "primaryUrl"
+        },
+        {
+          "name": "secondaryUrl"
+        },
+        {
+          "name": "active"
+        },
+        {
+          "name": "label"
+        },
+        {
+          "name": "primaryPlaceholderDefinitionUrl"
+        },
+        {
+          "name": "secondaryPlaceholderDefinitionUrl"
+        },
+        {
+          "name": "primaryTemplateUrl"
+        },
+        {
+          "name": "secondaryTemplateUrl"
+        }
+      ],
+      "rows": [
+        [
+          "1000026",
+          "PageTemp_Home",
+          "",
+          "TRUE",
+          "Home",
+          "Header=PlaceDef_ContributorNoEdit&amp;Scripts=PlaceDef_ContributorNoEdit",
+          "",
+          "Header=SubTemp_Headers&amp;Scripts=SubTemp_Scripts&amp;AppScripts=SubTemp_AppMap_SearchModalScpt",
+          ""
+        ]
+      ]
+    },
+    "NodeLayouts": {
+      "currentRow": 468,
+      "fields": [
+        {
+          "name": "nodeId"
+        },
+        {
+          "name": "dDocName"
+        },
+        {
+          "name": "isPrimaryUrl"
+        }
+      ],
+      "rows": [
+        [
+          "9000675",
+          "PAGETEMP_8X4GENERAL",
+          "1"
+        ]
+      ]
+    },
+    "UserAttribInfo": {
+      "currentRow": 0,
+      "fields": [
+        {
+          "name": "dUserName"
+        },
+        {
+          "name": "AttributeInfo"
+        }
+      ],
+      "rows": [
+        [
+          "username",
+          "account,15"
+        ]
+      ]
+    },
+    "WebsiteDocs": {
+      "currentRow": 0,
+      "fields": [
+        {
+          "name": "dDocName"
+        },
+        {
+          "name": "dDocTitle"
+        },
+        {
+          "name": "dID"
+        },
+        {
+          "name": "xWebsiteObjectType"
+        }
+      ],
+      "rows": [
+        [
+          "DDDD016840",
+          "aaa",
+          "18345",
+          ""
+        ],
+        [
+          "DDDD016851",
+          "aaa",
+          "15051",
+          ""
+        ]
+      ]
+    }
+  }
+}</value>
+  </data>
+</root>
